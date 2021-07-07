@@ -1,15 +1,38 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.display {
     background-color: #DDDDDD;
+    margin: 50px auto;
+    width: 800px;
+    height: 800px;
 }
 
 .container {
-    padding: 10px;
     background-color: #125D98;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
-    min-height: 100px;
-    border: 5px solid #3C8DAD;
-    margin: 50px;
+    margin: 5px;
+    font-size: 3rem;
     background-color: #F5A962;
+}
+
+.box-1 {
+    min-height: 100px;
+}
+
+.box-2 {
+    min-height: 200px;
+}
+
+.box-3 {
+    min-height: 300px;
 }
