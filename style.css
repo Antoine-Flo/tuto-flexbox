@@ -1,28 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.display {
+body{
     background-color: #DDDDDD;
-    margin: 50px auto;
-    width: 800px;
-    height: 800px;
 }
 
 .container {
     background-color: #125D98;
+    height: 90vh;
+    margin: 20px;
     padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .box {
+    background-color: #F5A962;
     margin: 5px;
     font-size: 3rem;
-    background-color: #F5A962;
 }
 
 .box-1 {
