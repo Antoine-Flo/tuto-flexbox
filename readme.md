@@ -4,8 +4,8 @@
 
 ## Terminologie
 
-<ins>Main axis</ins> : _Axe principal, horizontale par défault, verticale si flex-direction modifié._<br>
-<ins>Cross axis</ins> : _Axe perpendiculare à l'axe principal_<br>
+<ins>Main axis</ins> : Axe principal, horizontale par défault, verticale si ``flex-direction`` modifié.<br>
+<ins>Cross axis</ins> : Axe perpendiculare à l'axe principal<br>
 
 ---
 
@@ -17,10 +17,10 @@
   /* Initialise le container flex */
 
   flex-direction: column;
-  /* Determine direction de l'axe principale (horizontal par défaut) */
+  /* Determine la direction de l'axe principal (horizontal par défaut) */
 
   flex-wrap: nowrap | wrap | wrap-reverse;
-  /* Comportement des éléments sur plusieurs lignes ou non */
+  /* Force ou non les élément à rester sur une ligne (no-wrap par défaut, pas de retour à la ligne */
 
   flex-flow: column wrap;
   /* Raccourcis direction + wrap */
