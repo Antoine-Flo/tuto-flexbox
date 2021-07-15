@@ -16,11 +16,11 @@
   display: flex;
   /* Initialise le container flex */
 
-  flex-direction: column;
+  flex-direction: column | row | column-reverse | row-reverse;
   /* Determine la direction de l'axe principal (horizontal par défaut) */
 
   flex-wrap: nowrap | wrap | wrap-reverse;
-  /* Force ou non les élément à rester sur une ligne (no-wrap par défaut, pas de retour à la ligne */
+  /* Force ou non les élément à rester sur une ligne (no-wrap par défaut, pas de retour à la ligne) */
 
   flex-flow: column wrap;
   /* Raccourcis direction + wrap */
